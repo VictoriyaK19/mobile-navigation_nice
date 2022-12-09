@@ -27,3 +27,11 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+@media screen and (max-width: 600px) {
+  div.navbar-menu {
+    display: hidden;
+  }
+  div.navbar-burger {
+    display: visible;
+  }
+}
